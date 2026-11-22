@@ -136,10 +136,12 @@ for the returns/volatility model, `A_r`, `B_r`, `A_v`, `B_v`.) The `.mp4` files 
 
 ## Results
 
-The figures below are produced inside `main.ipynb` (Part 1 and Part 3) and the network
-animations are the `.mp4` files in `results/<frequency>/`. The findings are descriptive
-and exploratory — there is no out-of-sample test, no backtest against dated systemic
-events, and no significance bands on the parameter paths. They should be read as such.
+The repository is the third homework of a Quantitative Risk Management course. Its aim
+is to estimate the spillover networks and to describe them in sample, over rolling
+windows of one trading year. The parameter paths carry no significance bands, so read a
+single spike as a description of the fit, not as a tested event. The figures come from
+`main.ipynb` (Part 1 and Part 3), and the network animations are the `.mp4` files in
+`results/<frequency>/`.
 
 **MAR fit.** The rolling log-likelihood drops sharply during 2008–09 and 2020, tracking
 market stress. Spectral radii `ρ_A`, `ρ_B` sit below the stationarity bound in most
